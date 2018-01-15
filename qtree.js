@@ -363,7 +363,6 @@ function QuadTree(x, y, w, h, options) {
         }
         if( typeof callbackOrArray == 'undefined' ) {
             callbackOrArray = [];
-            buf = 0;
         }
         if( obj == null )
             get_rect(node, obj, buf, callbackOrArray);
